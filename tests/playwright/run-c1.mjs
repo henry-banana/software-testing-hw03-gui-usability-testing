@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { setTimeout as delay } from 'node:timers/promises';
 import { chromium, firefox, webkit } from 'playwright';
 import { cases } from './c1-cases.mjs';
+import { recordDemo } from './demo-c1.mjs';
 
 const repo = fileURLToPath(new URL('../../', import.meta.url));
 const sut = path.resolve(repo, '../eshop-sut');
@@ -21,9 +22,10 @@ const configurations = {
 };
 const [engine, options, browserName] = configurations[runName] ?? [];
 assert.ok(engine, 'Expected chrome, firefox, or webkit.');
-const selection = new Set(process.argv.slice(3));
-const selected = cases.filter((test) => selection.size === 0 || selection.has(test.id));
-assert.ok(selected.length > 0 && (selection.size === 0 || selection.size === selected.length), 'Unknown GUI ID.');
+const demo = process.argv[3] === 'demo';
+const selection = new Set(demo ? [] : process.argv.slice(3));
+const selected = demo ? [] : cases.filter((test) => selection.size === 0 || selection.has(test.id));
+assert.ok(demo || (selected.length > 0 && (selection.size === 0 || selection.size === selected.length)), 'Unknown GUI ID.');
 
 const backend = path.join(sut, 'backend');
 const web = path.join(sut, 'frontend-web');
@@ -66,6 +68,8 @@ function controls(page, capture = async () => {}) {
   const openCart = async () => {
     await page.locator('header nav').getByRole('link',{name:/Giỏ hàng/}).click();
     await page.waitForURL('**/cart');
+    await page.getByRole('heading',{name:'Giỏ Hàng',exact:true})
+      .or(page.getByRole('heading',{name:'Giỏ hàng của bạn đang trống',exact:true})).waitFor();
   };
   const proceed = () => page.getByRole('button',{name:'Tiến hành thanh toán'});
   const search = () => page.getByPlaceholder('Tìm kiếm...');
@@ -201,6 +205,13 @@ try {
   const newContext = () => browser.newContext({viewport,locale:'en-US'});
   const banner = (page, id) => [id,browserName + ' ' + version,osName,page.url(),email].filter(Boolean).join(' | ');
 
+  if (demo) {
+    await recordDemo({
+      browser, viewport, repo, cases, controls,
+      checkout: async (page) => fixture(controls(page),'checkout'),
+    });
+  }
+
   for (const test of selected) {
     const startedAt = now();
     const context = await newContext();
@@ -232,7 +243,7 @@ try {
     console.log(test.id, result.status, JSON.stringify(result.actual).slice(0,200));
   }
 
-  if (selection.size === 0) {
+  if (selection.size === 0 && !demo) {
     const context = await newContext();
     const page = await context.newPage();
     const ui = controls(page);
@@ -248,14 +259,16 @@ try {
     await context.close();
   }
   assert.equal(await hash(db),baselineHash,'Original database changed.');
-  const out = {
-    platform:runName,browser:browserName,version,os:osName,viewport,webUrl,
-    node:process.version,playwright:'1.65.0',locale:'en-US',
-    baseline:'85af3ba875c88283615e22cb108f13e2fccaf0e9',
-    originalSqliteSha256:baselineHash,startedAt:results[0].startedAt,finishedAt:now(),results,
-  };
-  await fs.writeFile(path.join(execution,runName + '.json'),JSON.stringify(out,null,2) + '\n');
-  console.log(browserName,version,results.reduce((count,{status}) => ({...count,[status]:(count[status] ?? 0)+1}),{}));
+  if (!demo) {
+    const out = {
+      platform:runName,browser:browserName,version,os:osName,viewport,webUrl,
+      node:process.version,playwright:'1.65.0',locale:'en-US',
+      baseline:'85af3ba875c88283615e22cb108f13e2fccaf0e9',
+      originalSqliteSha256:baselineHash,startedAt:results[0].startedAt,finishedAt:now(),results,
+    };
+    await fs.writeFile(path.join(execution,runName + '.json'),JSON.stringify(out,null,2) + '\n');
+    console.log(browserName,version,results.reduce((count,{status}) => ({...count,[status]:(count[status] ?? 0)+1}),{}));
+  }
 } finally {
   await browser?.close();
   api.kill();

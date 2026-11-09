@@ -54,7 +54,7 @@ JSON cùng tên giữ nguyên actual và thời điểm từng lượt. Các ả
 | GUI-034 | Failed | {"navigation":[]} | [Ảnh](../../evidence/screenshots/firefox/GUI-034.png) |
 | GUI-035 | Failed | {"navigation":[]} | [Ảnh](../../evidence/screenshots/firefox/GUI-035.png) |
 | GUI-036 | Passed | http://localhost:5173/ |  |
-| GUI-037 | Failed | {"label":"← Mua tiếp","href":"/"} | [Ảnh](../../evidence/screenshots/firefox/GUI-037.png) |
+| GUI-037 | Failed | {"label":" Mua tiếp","href":"/"} | [Ảnh](../../evidence/screenshots/firefox/GUI-037.png) |
 | GUI-038 | Passed | {"url":"http://localhost:5173/login","message":"Bạn cần đăng nhập để thanh toán!"} |  |
 | GUI-039 | Failed | {"url":"http://localhost:5173/checkout","payVisible":true} | [Ảnh](../../evidence/screenshots/firefox/GUI-039.png) |
 | GUI-040 | Failed | [{"product":"iPhone 15 Pro Max","alt":""},{"product":"Samsung Galaxy S24 Ultra","alt":""},{"product":"MacBook Pro M3","alt":""},{"product":"Tai nghe AirPods Pro 2","alt":""},{"product":"Bàn phím cơ Keychron Q1","alt":""}] | [Ảnh](../../evidence/screenshots/firefox/GUI-040.png) |
@@ -70,7 +70,7 @@ JSON cùng tên giữ nguyên actual và thời điểm từng lượt. Các ả
 | GUI-050 | Failed | ["Sản phẩm","Giá","Số lượng","Thành tiền","Thao tác"] | [Ảnh](../../evidence/screenshots/firefox/GUI-050.png) |
 | GUI-051 | Failed | ["Xóa"] | [Ảnh](../../evidence/screenshots/firefox/GUI-051.png) |
 | GUI-052 | Failed | {"rows":["iPhone 15 Pro Max30,000,000 ₫130,000,000 ₫Xóa","iPhone 15 Pro Max30,000,000 ₫130,000,000 ₫Xóa"],"quantities":["1","1"]} | [Ảnh](../../evidence/screenshots/firefox/GUI-052.png) |
-| GUI-053 | Failed | Giỏ Hàng Sản phẩm	Giá	Số lượng	Thành tiền	Thao tác iPhone 15 Pro Max	30,000,000 ₫	1	30,000,000 ₫	Xóa Tổng tạm tính: 30,000,000 ₫ ← Mua tiếp Tiến hành thanh toán | [Ảnh](../../evidence/screenshots/firefox/GUI-053.png) |
+| GUI-053 | Failed | Giỏ Hàng Sản phẩm	Giá	Số lượng	Thành tiền	Thao tác iPhone 15 Pro Max	30,000,000 ₫	1	30,000,000 ₫	Xóa Tổng tạm tính: 30,000,000 ₫  Mua tiếp Tiến hành thanh toán | [Ảnh](../../evidence/screenshots/firefox/GUI-053.png) |
 | GUI-054 | Failed | {"custom":0,"rows":0} | [Ảnh](../../evidence/screenshots/firefox/GUI-054.png) |
 | GUI-055 | Passed | ["Giỏ hàng của bạn đang trống"] |  |
 | GUI-056 | Failed | {"matches":0} | [Ảnh](../../evidence/screenshots/firefox/GUI-056.png) |
@@ -78,10 +78,10 @@ JSON cùng tên giữ nguyên actual và thời điểm từng lượt. Các ả
 | GUI-058 | Passed | Tổng thanh toán: 30,000,000 ₫ |  |
 | GUI-059 | Passed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng  Mã giảm giá không tồn tại hoặc đã bị vô hiệu hóa  Tổng thanh toán: 30,000,000 ₫ Xác Nhận Thanh Toán |  |
 | GUI-060 | Passed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng  Mã giảm giá đã hết hạn  Tổng thanh toán: 30,000,000 ₫ Xác Nhận Thanh Toán |  |
-| GUI-061 | Passed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng  ✅ Áp dụng thành công! Giảm 50,000 ₫  Tiết kiệm: 50,000 ₫  Thành tiền: 29,950,000 ₫  Tổng thanh toán: 29,950,000 ₫ Xác Nhận Thanh Toán |  |
-| GUI-062 | Failed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng  ✅ Áp dụng thành công! Giảm 10%  Tiết kiệm: -270,000,000 ₫  Thành tiền: 300,000,000 ₫  Tổng thanh toán: 300,000,000 ₫ Xác Nhận Thanh Toán | [Ảnh](../../evidence/screenshots/firefox/GUI-062.png) |
+| GUI-061 | Passed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng   Áp dụng thành công! Giảm 50,000 ₫  Tiết kiệm: 50,000 ₫  Thành tiền: 29,950,000 ₫  Tổng thanh toán: 29,950,000 ₫ Xác Nhận Thanh Toán |  |
+| GUI-062 | Failed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng   Áp dụng thành công! Giảm 10%  Tiết kiệm: -270,000,000 ₫  Thành tiền: 300,000,000 ₫  Tổng thanh toán: 300,000,000 ₫ Xác Nhận Thanh Toán | [Ảnh](../../evidence/screenshots/firefox/GUI-062.png) |
 | GUI-063 | Passed | Xác Nhận Đơn Hàng Sản phẩm: iPhone 15 Pro Max x 1 - 30,000,000 ₫ Tổng tiền thanh toán (VND): Mã Giảm Giá Áp dụng Tổng thanh toán: 30,000,000 ₫ Xác Nhận Thanh Toán |  |
 | GUI-064 | Passed | {"visible":true,"button":["Đang xử lý..."]} |  |
 | GUI-065 | Passed | {"status":200,"message":["Thanh toán thành công!"]} |  |
-| GUI-066 | Failed | {"status":200,"rows":1,"body":"Giỏ Hàng Sản phẩm\tGiá\tSố lượng\tThành tiền\tThao tác iPhone 15 Pro Max\t30,000,000 ₫\t1\t30,000,000 ₫\tXóa Tổng tạm tính: 30,000,000 ₫ ← Mua tiếp Tiến hành thanh toán"} | [Ảnh](../../evidence/screenshots/firefox/GUI-066.png) |
+| GUI-066 | Failed | {"status":200,"rows":1,"body":"Giỏ Hàng Sản phẩm\tGiá\tSố lượng\tThành tiền\tThao tác iPhone 15 Pro Max\t30,000,000 ₫\t1\t30,000,000 ₫\tXóa Tổng tạm tính: 30,000,000 ₫  Mua tiếp Tiến hành thanh toán"} | [Ảnh](../../evidence/screenshots/firefox/GUI-066.png) |
 | GUI-067 | Passed | {"status":200,"url":"http://localhost:5173/"} |  |
