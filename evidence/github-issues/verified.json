@@ -1,0 +1,135 @@
+{
+  "IA01-001": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/1",
+    "number": 1,
+    "title": "[IA-01] Trang chủ có hai tiêu đề h1 khi catalog đã tải",
+    "attachment": "https://github.com/user-attachments/assets/0bfd2bc5-b3e3-4a73-9db4-d0c90c6b78f8",
+    "verifiedUtc": "2026-11-09T19:43:53.1996125Z"
+  },
+  "IA01-002": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/2",
+    "number": 2,
+    "title": "[IA-01] Giỏ hàng có sản phẩm nhưng thiếu tiêu đề h1",
+    "attachment": "https://github.com/user-attachments/assets/20421034-2936-43ab-bee5-8e29c2e7b45f",
+    "verifiedUtc": "2026-11-09T19:43:57.7202601Z"
+  },
+  "IA01-003": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/3",
+    "number": 3,
+    "title": "[IA-01] Checkout có sản phẩm nhưng thiếu tiêu đề h1",
+    "attachment": "https://github.com/user-attachments/assets/75b472f0-32a4-47e9-905e-636c84979618",
+    "verifiedUtc": "2026-11-09T19:44:00.8864235Z"
+  },
+  "IA01-004": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/4",
+    "number": 4,
+    "title": "[IA-01] Chi tiết sản phẩm dùng màu xanh lá cho nút Thêm vào giỏ hàng",
+    "attachment": "https://github.com/user-attachments/assets/0c1527ca-d14f-4042-898d-0cf2cedfd9c5",
+    "verifiedUtc": "2026-11-09T19:44:04.3064114Z"
+  },
+  "IA01-005": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/5",
+    "number": 5,
+    "title": "[IA-01] Checkout dùng màu xanh lá cho nút Xác Nhận Thanh Toán",
+    "attachment": "https://github.com/user-attachments/assets/8c1a7ebc-502a-4830-8cd2-af5baf49bdf4",
+    "verifiedUtc": "2026-11-09T19:44:07.5567736Z"
+  },
+  "IA01-006": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/6",
+    "number": 6,
+    "title": "[IA-01] Checkout dùng màu cam cho nút Áp dụng khi ô mã có dữ liệu",
+    "attachment": "https://github.com/user-attachments/assets/a684d727-c8f2-4da0-b5bf-d3214a86255d",
+    "verifiedUtc": "2026-11-09T19:44:10.9114200Z"
+  },
+  "IA02-001": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/7",
+    "number": 7,
+    "title": "[IA-02] Chi tiết sản phẩm thêm dòng có số lượng 0 vào giỏ",
+    "attachment": "https://github.com/user-attachments/assets/d126f986-6452-4e2e-a15c-ef05372e4330",
+    "verifiedUtc": "2026-11-09T19:44:14.3106807Z"
+  },
+  "IA02-002": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/8",
+    "number": 8,
+    "title": "[IA-02] Chi tiết sản phẩm thêm số lượng âm làm tổng giỏ âm",
+    "attachment": "https://github.com/user-attachments/assets/68405cd4-e3d5-4607-b653-d2b5473a38d6",
+    "verifiedUtc": "2026-11-09T19:44:18.1022314Z"
+  },
+  "IA02-003": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/9",
+    "number": 9,
+    "title": "[IA-02] Chi tiết sản phẩm nhận số lượng 1.5 rồi tự đổi thành 1 trong giỏ",
+    "attachment": "https://github.com/user-attachments/assets/99798942-74df-4fe1-a26d-659b2e952094",
+    "verifiedUtc": "2026-11-09T19:44:21.7779079Z"
+  },
+  "IA02-004": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/10",
+    "number": 10,
+    "title": "[IA-02] Chi tiết sản phẩm thêm số lượng rỗng và giỏ hiển thị NaN",
+    "attachment": "https://github.com/user-attachments/assets/047f74f3-7a84-42bf-94f5-02ad94b8d1b2",
+    "verifiedUtc": "2026-11-09T19:44:25.4338962Z"
+  },
+  "IA02-005": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/11",
+    "number": 11,
+    "title": "[IA-02] Checkout đặt lỗi mã không tồn tại bên dưới nút Áp dụng",
+    "attachment": "https://github.com/user-attachments/assets/3bb2796a-5f43-44b0-ad0a-6dc719931be6",
+    "verifiedUtc": "2026-11-09T19:44:28.3838564Z"
+  },
+  "IA02-006": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/12",
+    "number": 12,
+    "title": "[IA-02] Ô số lượng ở Chi tiết sản phẩm thiếu tên truy cập",
+    "attachment": "https://github.com/user-attachments/assets/70320af6-abd4-4604-83cd-406f63c53063",
+    "verifiedUtc": "2026-11-09T19:44:31.3831613Z"
+  },
+  "IA03-001": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/13",
+    "number": 13,
+    "title": "[IA-03] Chi tiết sản phẩm không có breadcrumb khi mở sản phẩm seed",
+    "attachment": "https://github.com/user-attachments/assets/becd94ff-ee5f-43e1-84e5-51ba1a4c55d4",
+    "verifiedUtc": "2026-11-09T19:44:34.4511361Z"
+  },
+  "IA03-002": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/14",
+    "number": 14,
+    "title": "[IA-03] Checkout không có breadcrumb khi giỏ đã có sản phẩm",
+    "attachment": "https://github.com/user-attachments/assets/2caf65ff-1984-443d-bdbf-4044c4ed8ca0",
+    "verifiedUtc": "2026-11-09T19:44:38.4937501Z"
+  },
+  "IA03-003": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/15",
+    "number": 15,
+    "title": "[IA-03] Khách truy cập trực tiếp Checkout và thấy nút xác nhận",
+    "attachment": "https://github.com/user-attachments/assets/6ef74940-f0fe-4dee-a15c-d47623a43edf",
+    "verifiedUtc": "2026-11-09T19:44:42.3523594Z"
+  },
+  "IA04-001": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/16",
+    "number": 16,
+    "title": "[IA-04] Trang chủ không báo không có kết quả khi tìm chuỗi không khớp",
+    "attachment": "https://github.com/user-attachments/assets/a50f846c-491b-4cd4-b9bf-af49f311a380",
+    "verifiedUtc": "2026-11-09T19:44:45.7705450Z"
+  },
+  "IA04-002": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/17",
+    "number": 17,
+    "title": "[IA-04] Trang chủ thiếu trạng thái tải khi request catalog đang chờ",
+    "attachment": "https://github.com/user-attachments/assets/b51edb12-8157-45cd-8ffd-66c7f546f1e6",
+    "verifiedUtc": "2026-11-09T19:44:48.9465322Z"
+  },
+  "IA04-003": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/18",
+    "number": 18,
+    "title": "[IA-04] Trang chủ render thẻ HTML trong vùng hiển thị từ khóa tìm kiếm",
+    "attachment": "https://github.com/user-attachments/assets/d28f3baa-3d91-43b0-bc64-ccec39ea9a86",
+    "verifiedUtc": "2026-11-09T19:44:53.0178465Z"
+  },
+  "IA04-004": {
+    "url": "https://github.com/henry-banana/software-testing-hw03-gui-usability-testing/issues/19",
+    "number": 19,
+    "title": "[IA-04] Chi tiết iPhone 15 Pro Max không hiển thị danh mục sản phẩm",
+    "attachment": "https://github.com/user-attachments/assets/1f69b598-e05a-4b0f-a09a-3a3141538163",
+    "verifiedUtc": "2026-11-09T19:44:56.4865680Z"
+  }
+}

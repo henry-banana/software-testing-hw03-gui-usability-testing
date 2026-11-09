@@ -1,0 +1,30 @@
+{
+  "existing": {
+    "GUI-005": 170, "GUI-021": 13, "GUI-031": 169, "GUI-032": 166,
+    "GUI-034": 168, "GUI-037": 174, "GUI-040": 171, "GUI-048": 161,
+    "GUI-049": 162, "GUI-050": 172, "GUI-051": 164, "GUI-052": 163,
+    "GUI-053": 175, "GUI-054": 165, "GUI-056": 167, "GUI-062": 126,
+    "GUI-066": 12
+  },
+  "new": [
+    ["GUI-001", "IA01-001", "Trang chủ có hai tiêu đề h1 khi catalog đã tải", "Low", "Công nghệ hỗ trợ nhận thêm một tiêu đề cấp một dùng cho bộ đếm, làm sai cấu trúc điều hướng theo heading."],
+    ["GUI-003", "IA01-002", "Giỏ hàng có sản phẩm nhưng thiếu tiêu đề h1", "Low", "Người dùng điều hướng theo heading không có tiêu đề cấp một để nhận diện Giỏ hàng."],
+    ["GUI-004", "IA01-003", "Checkout có sản phẩm nhưng thiếu tiêu đề h1", "Low", "Vùng xác nhận đơn thiếu tiêu đề cấp một cho cấu trúc heading của trang."],
+    ["GUI-010", "IA01-004", "Chi tiết sản phẩm dùng màu xanh lá cho nút Thêm vào giỏ hàng", "Low", "Màu nút mua hàng không đồng nhất với màu xanh dương quy định cho hành động chính."],
+    ["GUI-012", "IA01-005", "Checkout dùng màu xanh lá cho nút Xác Nhận Thanh Toán", "Low", "Nút chính ở bước xác nhận đơn dùng màu khác tiêu chuẩn giao diện, làm giảm nhất quán giữa các màn."],
+    ["GUI-013", "IA01-006", "Checkout dùng màu cam cho nút Áp dụng khi ô mã có dữ liệu", "Low", "Hành động gửi mã dùng màu khác tiêu chuẩn màu của nút submit."],
+    ["GUI-017", "IA02-001", "Chi tiết sản phẩm thêm dòng có số lượng 0 vào giỏ", "Medium", "Giỏ có dòng sản phẩm với số lượng 0 và thành tiền 0, dù sản phẩm chưa được chọn với số lượng hợp lệ."],
+    ["GUI-018", "IA02-002", "Chi tiết sản phẩm thêm số lượng âm làm tổng giỏ âm", "High", "Với số lượng âm, giỏ hiển thị thành tiền âm. Giá trị tổng giỏ không còn phản ánh giá mua hợp lệ."],
+    ["GUI-019", "IA02-003", "Chi tiết sản phẩm nhận số lượng 1.5 rồi tự đổi thành 1 trong giỏ", "Medium", "Giỏ lưu số lượng khác dữ liệu người dùng vừa nhập mà không báo sai định dạng."],
+    ["GUI-020", "IA02-004", "Chi tiết sản phẩm thêm số lượng rỗng và giỏ hiển thị NaN", "High", "Số lượng và thành tiền của dòng giỏ không còn đọc được, làm người dùng không thể đối chiếu tổng."],
+    ["GUI-022", "IA02-005", "Checkout đặt lỗi mã không tồn tại bên dưới nút Áp dụng", "Low", "Vị trí phản hồi lỗi khác quy tắc bố trí biểu mẫu FR-22."],
+    ["GUI-026", "IA02-006", "Ô số lượng ở Chi tiết sản phẩm thiếu tên truy cập", "Medium", "Công nghệ hỗ trợ nhận vai trò spinbutton và giá trị nhưng không có tên để phân biệt trường."],
+    ["GUI-033", "IA03-001", "Chi tiết sản phẩm không có breadcrumb khi mở sản phẩm seed", "Low", "Trang chi tiết không có đường dẫn phân cấp theo FR-23. Issue cũ về breadcrumb Giỏ hàng có đường dẫn khác."],
+    ["GUI-035", "IA03-002", "Checkout không có breadcrumb khi giỏ đã có sản phẩm", "Low", "Người dùng ở bước xác nhận đơn thiếu đường dẫn phân cấp để định vị trong luồng."],
+    ["GUI-039", "IA03-003", "Khách truy cập trực tiếp Checkout và thấy nút xác nhận", "Medium", "Khách có thể đến màn xác nhận qua URL và thấy nút thanh toán trước khi đăng nhập. Phát hiện này giới hạn ở điều hướng giao diện."],
+    ["GUI-042", "IA04-001", "Trang chủ không báo không có kết quả khi tìm chuỗi không khớp", "Medium", "Người dùng thấy vùng kết quả trống và thiếu thông báo để biết nên đổi từ khóa."],
+    ["GUI-043", "IA04-002", "Trang chủ thiếu trạng thái tải khi request catalog đang chờ", "Low", "Trong khi request thật chưa trả về, vùng catalog trống và người dùng thiếu tín hiệu cho biết trang vẫn đang tải."],
+    ["GUI-045", "IA04-003", "Trang chủ render thẻ HTML trong vùng hiển thị từ khóa tìm kiếm", "Medium", "Dữ liệu nhập thay đổi cấu trúc hiển thị của trang, trái yêu cầu hiển thị an toàn. Chỉ kiểm với markup b vô hại."],
+    ["GUI-047", "IA04-004", "Chi tiết iPhone 15 Pro Max không hiển thị danh mục sản phẩm", "Low", "Người mua không thấy danh mục Điện thoại ở trang chi tiết dù đây là thông tin bắt buộc theo FR-06."]
+  ]
+}
