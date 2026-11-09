@@ -1,0 +1,822 @@
+{
+  "platform": "firefox",
+  "browser": "Firefox (Playwright build)",
+  "version": "159.0",
+  "os": "Windows 10.0.26300",
+  "viewport": {
+    "width": 1366,
+    "height": 900
+  },
+  "webUrl": "http://localhost:5173",
+  "node": "v24.16.0",
+  "playwright": "1.65.0",
+  "locale": "en-US",
+  "baseline": "85af3ba875c88283615e22cb108f13e2fccaf0e9",
+  "originalSqliteSha256": "c63f00544180ba1fbb1427a9b9dd3f1784842698809972f33ce90482e7420ba6",
+  "startedAt": "2026-11-09T19:40:38.267Z",
+  "finishedAt": "2026-11-09T19:43:38.779Z",
+  "results": [
+    {
+      "id": "GUI-001",
+      "startedAt": "2026-11-09T19:40:38.267Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [
+        "Danh sách sản phẩm",
+        "Hiển thị 5 sản phẩm"
+      ],
+      "screenshot": "evidence/screenshots/firefox/GUI-001.png",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:40:41.474Z"
+    },
+    {
+      "id": "GUI-002",
+      "startedAt": "2026-11-09T19:40:41.484Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "iPhone 15 Pro Max"
+      ],
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:40:43.977Z"
+    },
+    {
+      "id": "GUI-003",
+      "startedAt": "2026-11-09T19:40:43.984Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [],
+      "screenshot": "evidence/screenshots/firefox/GUI-003.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:40:46.583Z"
+    },
+    {
+      "id": "GUI-004",
+      "startedAt": "2026-11-09T19:40:46.597Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [],
+      "screenshot": "evidence/screenshots/firefox/GUI-004.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:40:49.363Z"
+    },
+    {
+      "id": "GUI-005",
+      "startedAt": "2026-11-09T19:40:49.372Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [
+        "30,000,000 VND",
+        "28,000,000 VND",
+        "45,000,000 VND",
+        "6,000,000 VND",
+        "4,000,000 VND"
+      ],
+      "screenshot": "evidence/screenshots/firefox/GUI-005.png",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:40:51.871Z"
+    },
+    {
+      "id": "GUI-006",
+      "startedAt": "2026-11-09T19:40:51.879Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "30,000,000 ₫",
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:40:54.367Z"
+    },
+    {
+      "id": "GUI-007",
+      "startedAt": "2026-11-09T19:40:54.373Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "30,000,000 ₫",
+        "30,000,000 ₫"
+      ],
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:40:56.888Z"
+    },
+    {
+      "id": "GUI-008",
+      "startedAt": "2026-11-09T19:40:56.898Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Tổng thanh toán: 30,000,000 ₫",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:40:59.550Z"
+    },
+    {
+      "id": "GUI-009",
+      "startedAt": "2026-11-09T19:40:59.558Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "rgb(37, 99, 235)",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:41:02.046Z"
+    },
+    {
+      "id": "GUI-010",
+      "startedAt": "2026-11-09T19:41:02.053Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "rgb(22, 163, 74)",
+      "screenshot": "evidence/screenshots/firefox/GUI-010.png",
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:41:04.609Z"
+    },
+    {
+      "id": "GUI-011",
+      "startedAt": "2026-11-09T19:41:04.920Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "rgba(0, 0, 0, 0)",
+        "rgb(239, 68, 68)"
+      ],
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:41:07.429Z"
+    },
+    {
+      "id": "GUI-012",
+      "startedAt": "2026-11-09T19:41:07.436Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "rgb(22, 163, 74)",
+      "screenshot": "evidence/screenshots/firefox/GUI-012.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:10.151Z"
+    },
+    {
+      "id": "GUI-013",
+      "startedAt": "2026-11-09T19:41:10.158Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "rgb(249, 115, 22)",
+      "screenshot": "evidence/screenshots/firefox/GUI-013.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:12.827Z"
+    },
+    {
+      "id": "GUI-014",
+      "startedAt": "2026-11-09T19:41:12.833Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Tìm",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:41:15.230Z"
+    },
+    {
+      "id": "GUI-015",
+      "startedAt": "2026-11-09T19:41:15.237Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "Áp dụng",
+        "Xác Nhận Thanh Toán"
+      ],
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:17.909Z"
+    },
+    {
+      "id": "GUI-016",
+      "startedAt": "2026-11-09T19:41:17.916Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "type": "number",
+        "value": "1"
+      },
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:41:20.389Z"
+    },
+    {
+      "id": "GUI-017",
+      "startedAt": "2026-11-09T19:41:20.395Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "value": "0",
+        "feedback": "Đã thêm",
+        "rows": [
+          "iPhone 15 Pro Max30,000,000 ₫00 ₫Xóa"
+        ]
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-017.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:41:23.010Z"
+    },
+    {
+      "id": "GUI-018",
+      "startedAt": "2026-11-09T19:41:23.018Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "value": "-1",
+        "feedback": "Đã thêm",
+        "rows": [
+          "iPhone 15 Pro Max30,000,000 ₫-1-30,000,000 ₫Xóa"
+        ]
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-018.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:41:25.683Z"
+    },
+    {
+      "id": "GUI-019",
+      "startedAt": "2026-11-09T19:41:25.690Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "value": "1.5",
+        "feedback": "Đã thêm",
+        "rows": [
+          "iPhone 15 Pro Max30,000,000 ₫130,000,000 ₫Xóa"
+        ]
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-019.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:41:28.344Z"
+    },
+    {
+      "id": "GUI-020",
+      "startedAt": "2026-11-09T19:41:28.351Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "value": "",
+        "feedback": "Đã thêm",
+        "rows": [
+          "iPhone 15 Pro Max30,000,000 ₫NaNNaN ₫Xóa"
+        ]
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-020.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:41:30.985Z"
+    },
+    {
+      "id": "GUI-021",
+      "startedAt": "2026-11-09T19:41:31.299Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "editable": true,
+        "before": "30000000",
+        "after": "1"
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-021.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:34.000Z"
+    },
+    {
+      "id": "GUI-022",
+      "startedAt": "2026-11-09T19:41:34.007Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "text": [
+          "Mã giảm giá không tồn tại hoặc đã bị vô hiệu hóa"
+        ],
+        "errorY": 438.5,
+        "buttonY": 388.5
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-022.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:36.725Z"
+    },
+    {
+      "id": "GUI-023",
+      "startedAt": "2026-11-09T19:41:36.733Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "disabled": true
+      },
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:40.641Z"
+    },
+    {
+      "id": "GUI-024",
+      "startedAt": "2026-11-09T19:41:40.647Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "disabled": true
+      },
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:43.294Z"
+    },
+    {
+      "id": "GUI-025",
+      "startedAt": "2026-11-09T19:41:43.300Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "enabled": true
+      },
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:45.964Z"
+    },
+    {
+      "id": "GUI-026",
+      "startedAt": "2026-11-09T19:41:45.972Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "- spinbutton: \"1\"",
+      "screenshot": "evidence/screenshots/firefox/GUI-026.png",
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:41:48.516Z"
+    },
+    {
+      "id": "GUI-027",
+      "startedAt": "2026-11-09T19:41:48.522Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "- textbox \"Nhập mã giảm giá...\"",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:41:51.121Z"
+    },
+    {
+      "id": "GUI-028",
+      "startedAt": "2026-11-09T19:41:51.130Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "http://localhost:5173/cart",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:41:53.565Z"
+    },
+    {
+      "id": "GUI-029",
+      "startedAt": "2026-11-09T19:41:53.575Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "/login",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:41:55.953Z"
+    },
+    {
+      "id": "GUI-030",
+      "startedAt": "2026-11-09T19:41:55.960Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "/register",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:41:58.379Z"
+    },
+    {
+      "id": "GUI-031",
+      "startedAt": "2026-11-09T19:41:58.744Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "current": null,
+        "classes": "hover:underline"
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-031.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:01.395Z"
+    },
+    {
+      "id": "GUI-032",
+      "startedAt": "2026-11-09T19:42:01.404Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "Giỏ hàng",
+      "screenshot": "evidence/screenshots/firefox/GUI-032.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:04.008Z"
+    },
+    {
+      "id": "GUI-033",
+      "startedAt": "2026-11-09T19:42:04.015Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "navigation": []
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-033.png",
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:42:06.586Z"
+    },
+    {
+      "id": "GUI-034",
+      "startedAt": "2026-11-09T19:42:06.594Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "navigation": []
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-034.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:09.152Z"
+    },
+    {
+      "id": "GUI-035",
+      "startedAt": "2026-11-09T19:42:09.160Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "navigation": []
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-035.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:42:11.837Z"
+    },
+    {
+      "id": "GUI-036",
+      "startedAt": "2026-11-09T19:42:11.845Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "http://localhost:5173/",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:14.304Z"
+    },
+    {
+      "id": "GUI-037",
+      "startedAt": "2026-11-09T19:42:14.312Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "label": "← Mua tiếp",
+        "href": "/"
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-037.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:16.888Z"
+    },
+    {
+      "id": "GUI-038",
+      "startedAt": "2026-11-09T19:42:16.898Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "url": "http://localhost:5173/login",
+        "message": "Bạn cần đăng nhập để thanh toán!"
+      },
+      "url": "http://localhost:5173/login",
+      "finishedAt": "2026-11-09T19:42:19.456Z"
+    },
+    {
+      "id": "GUI-039",
+      "startedAt": "2026-11-09T19:42:19.465Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "url": "http://localhost:5173/checkout",
+        "payVisible": true
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-039.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:42:21.892Z"
+    },
+    {
+      "id": "GUI-040",
+      "startedAt": "2026-11-09T19:42:21.898Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [
+        {
+          "product": "iPhone 15 Pro Max",
+          "alt": ""
+        },
+        {
+          "product": "Samsung Galaxy S24 Ultra",
+          "alt": ""
+        },
+        {
+          "product": "MacBook Pro M3",
+          "alt": ""
+        },
+        {
+          "product": "Tai nghe AirPods Pro 2",
+          "alt": ""
+        },
+        {
+          "product": "Bàn phím cơ Keychron Q1",
+          "alt": ""
+        }
+      ],
+      "screenshot": "evidence/screenshots/firefox/GUI-040.png",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:24.351Z"
+    },
+    {
+      "id": "GUI-041",
+      "startedAt": "2026-11-09T19:42:24.785Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "iPhone 15 Pro Max",
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:42:27.248Z"
+    },
+    {
+      "id": "GUI-042",
+      "startedAt": "2026-11-09T19:42:27.256Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "Danh sách sản phẩm\nTìm\nKết quả tìm kiếm cho: HW03NOITEM2026",
+      "screenshot": "evidence/screenshots/firefox/GUI-042.png",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:29.771Z"
+    },
+    {
+      "id": "GUI-043",
+      "startedAt": "2026-11-09T19:42:29.783Z",
+      "platform": "firefox",
+      "screenshot": "evidence/screenshots/firefox/GUI-043.png",
+      "status": "Failed",
+      "actual": "Danh sách sản phẩm\nTìm",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:32.212Z"
+    },
+    {
+      "id": "GUI-044",
+      "startedAt": "2026-11-09T19:42:32.221Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "iPhone 15 Pro Max"
+      ],
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:34.677Z"
+    },
+    {
+      "id": "GUI-045",
+      "startedAt": "2026-11-09T19:42:34.686Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "rendered": [
+          "HW03"
+        ],
+        "body": "Danh sách sản phẩm\nTìm\nKết quả tìm kiếm cho: HW03"
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-045.png",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:37.179Z"
+    },
+    {
+      "id": "GUI-046",
+      "startedAt": "2026-11-09T19:42:37.186Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "title": "iPhone 15 Pro Max",
+        "img": "https://placehold.co/300x300/png?text=iPhone+15",
+        "body": "iPhone 15 Pro Max\n\n30,000,000 ₫\n\nĐiện thoại cao cấp của Apple\n\nSố lượng:\nThêm vào giỏ hàng"
+      },
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:42:39.765Z"
+    },
+    {
+      "id": "GUI-047",
+      "startedAt": "2026-11-09T19:42:39.776Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [],
+      "screenshot": "evidence/screenshots/firefox/GUI-047.png",
+      "url": "http://localhost:5173/product/1",
+      "finishedAt": "2026-11-09T19:42:42.378Z"
+    },
+    {
+      "id": "GUI-048",
+      "startedAt": "2026-11-09T19:42:42.387Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "feedback": "Thêm vào giỏ hàng",
+        "rows": []
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-048.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:44.974Z"
+    },
+    {
+      "id": "GUI-049",
+      "startedAt": "2026-11-09T19:42:44.985Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "before": "Giỏ hàng\nĐăng nhập\nĐăng ký",
+        "after": "Giỏ hàng\nĐăng nhập\nĐăng ký",
+        "notices": []
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-049.png",
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:42:47.478Z"
+    },
+    {
+      "id": "GUI-050",
+      "startedAt": "2026-11-09T19:42:47.486Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [
+        "Sản phẩm",
+        "Giá",
+        "Số lượng",
+        "Thành tiền",
+        "Thao tác"
+      ],
+      "screenshot": "evidence/screenshots/firefox/GUI-050.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:50.065Z"
+    },
+    {
+      "id": "GUI-051",
+      "startedAt": "2026-11-09T19:42:50.463Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": [
+        "Xóa"
+      ],
+      "screenshot": "evidence/screenshots/firefox/GUI-051.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:53.014Z"
+    },
+    {
+      "id": "GUI-052",
+      "startedAt": "2026-11-09T19:42:53.021Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "rows": [
+          "iPhone 15 Pro Max30,000,000 ₫130,000,000 ₫Xóa",
+          "iPhone 15 Pro Max30,000,000 ₫130,000,000 ₫Xóa"
+        ],
+        "quantities": [
+          "1",
+          "1"
+        ]
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-052.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:55.669Z"
+    },
+    {
+      "id": "GUI-053",
+      "startedAt": "2026-11-09T19:42:55.677Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "Giỏ Hàng\nSản phẩm\tGiá\tSố lượng\tThành tiền\tThao tác\niPhone 15 Pro Max\t30,000,000 ₫\t1\t30,000,000 ₫\tXóa\nTổng tạm tính: 30,000,000 ₫\n← Mua tiếp\nTiến hành thanh toán",
+      "screenshot": "evidence/screenshots/firefox/GUI-053.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:42:58.238Z"
+    },
+    {
+      "id": "GUI-054",
+      "startedAt": "2026-11-09T19:42:58.246Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "custom": 0,
+        "rows": 0
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-054.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:43:00.815Z"
+    },
+    {
+      "id": "GUI-055",
+      "startedAt": "2026-11-09T19:43:00.822Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "Giỏ hàng của bạn đang trống"
+      ],
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:43:03.194Z"
+    },
+    {
+      "id": "GUI-056",
+      "startedAt": "2026-11-09T19:43:03.200Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "matches": 0
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-056.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:43:05.611Z"
+    },
+    {
+      "id": "GUI-057",
+      "startedAt": "2026-11-09T19:43:05.618Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": [
+        "iPhone 15 Pro Max x 1 — 30,000,000 ₫"
+      ],
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:08.235Z"
+    },
+    {
+      "id": "GUI-058",
+      "startedAt": "2026-11-09T19:43:08.243Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Tổng thanh toán: 30,000,000 ₫",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:10.825Z"
+    },
+    {
+      "id": "GUI-059",
+      "startedAt": "2026-11-09T19:43:10.831Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Xác Nhận Đơn Hàng\nSản phẩm:\niPhone 15 Pro Max x 1 — 30,000,000 ₫\nTổng tiền thanh toán (VND):\nMã Giảm Giá\nÁp dụng\n\nMã giảm giá không tồn tại hoặc đã bị vô hiệu hóa\n\nTổng thanh toán: 30,000,000 ₫\nXác Nhận Thanh Toán",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:13.490Z"
+    },
+    {
+      "id": "GUI-060",
+      "startedAt": "2026-11-09T19:43:13.498Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Xác Nhận Đơn Hàng\nSản phẩm:\niPhone 15 Pro Max x 1 — 30,000,000 ₫\nTổng tiền thanh toán (VND):\nMã Giảm Giá\nÁp dụng\n\nMã giảm giá đã hết hạn\n\nTổng thanh toán: 30,000,000 ₫\nXác Nhận Thanh Toán",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:16.175Z"
+    },
+    {
+      "id": "GUI-061",
+      "startedAt": "2026-11-09T19:43:16.569Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Xác Nhận Đơn Hàng\nSản phẩm:\niPhone 15 Pro Max x 1 — 30,000,000 ₫\nTổng tiền thanh toán (VND):\nMã Giảm Giá\nÁp dụng\n\n✅ Áp dụng thành công! Giảm 50,000 ₫\n\nTiết kiệm: 50,000 ₫\n\nThành tiền: 29,950,000 ₫\n\nTổng thanh toán: 29,950,000 ₫\nXác Nhận Thanh Toán",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:19.279Z"
+    },
+    {
+      "id": "GUI-062",
+      "startedAt": "2026-11-09T19:43:19.286Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": "Xác Nhận Đơn Hàng\nSản phẩm:\niPhone 15 Pro Max x 1 — 30,000,000 ₫\nTổng tiền thanh toán (VND):\nMã Giảm Giá\nÁp dụng\n\n✅ Áp dụng thành công! Giảm 10%\n\nTiết kiệm: -270,000,000 ₫\n\nThành tiền: 300,000,000 ₫\n\nTổng thanh toán: 300,000,000 ₫\nXác Nhận Thanh Toán",
+      "screenshot": "evidence/screenshots/firefox/GUI-062.png",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:22.246Z"
+    },
+    {
+      "id": "GUI-063",
+      "startedAt": "2026-11-09T19:43:22.254Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": "Xác Nhận Đơn Hàng\nSản phẩm:\niPhone 15 Pro Max x 1 — 30,000,000 ₫\nTổng tiền thanh toán (VND):\nMã Giảm Giá\nÁp dụng\nTổng thanh toán: 30,000,000 ₫\nXác Nhận Thanh Toán",
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:24.964Z"
+    },
+    {
+      "id": "GUI-064",
+      "startedAt": "2026-11-09T19:43:24.972Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "visible": true,
+        "button": [
+          "Đang xử lý..."
+        ]
+      },
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:27.678Z"
+    },
+    {
+      "id": "GUI-065",
+      "startedAt": "2026-11-09T19:43:27.685Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "status": 200,
+        "message": [
+          "Thanh toán thành công!"
+        ]
+      },
+      "url": "http://localhost:5173/checkout",
+      "finishedAt": "2026-11-09T19:43:30.353Z"
+    },
+    {
+      "id": "GUI-066",
+      "startedAt": "2026-11-09T19:43:30.360Z",
+      "platform": "firefox",
+      "status": "Failed",
+      "actual": {
+        "status": 200,
+        "rows": 1,
+        "body": "Giỏ Hàng\nSản phẩm\tGiá\tSố lượng\tThành tiền\tThao tác\niPhone 15 Pro Max\t30,000,000 ₫\t1\t30,000,000 ₫\tXóa\nTổng tạm tính: 30,000,000 ₫\n← Mua tiếp\nTiến hành thanh toán"
+      },
+      "screenshot": "evidence/screenshots/firefox/GUI-066.png",
+      "url": "http://localhost:5173/cart",
+      "finishedAt": "2026-11-09T19:43:33.147Z"
+    },
+    {
+      "id": "GUI-067",
+      "startedAt": "2026-11-09T19:43:33.153Z",
+      "platform": "firefox",
+      "status": "Passed",
+      "actual": {
+        "status": 200,
+        "url": "http://localhost:5173/"
+      },
+      "url": "http://localhost:5173/",
+      "finishedAt": "2026-11-09T19:43:35.889Z"
+    }
+  ]
+}
