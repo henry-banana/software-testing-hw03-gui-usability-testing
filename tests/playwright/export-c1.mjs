@@ -13,7 +13,8 @@ const fixtures = {
 };
 const read = (file) => fs.readFile(new URL(file,root),'utf8');
 const write = (file,data) => fs.writeFile(new URL(file,root),data);
-const cell = (value) => String(value).replaceAll('|','\\|').replace(/\r?\n/g,' ').replace(/[—–·]/g,'-').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const cell = (value) => String(value).replaceAll('|','\\|').replace(/\r?\n/g,' ')
+  .replace(/[—–·]/g,'-').replace(/[✅←]/gu,'').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const pretty = (actual) => typeof actual === 'string' ? actual : JSON.stringify(actual);
 
 export { fixtures };

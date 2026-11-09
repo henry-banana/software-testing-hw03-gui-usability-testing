@@ -6,8 +6,8 @@ Nguồn chính là đề HW03 mục 4 đến 17, đặc tả EShop mục 8 và c
 
 - [ ] Kiểm tra hạn nộp, giới hạn tệp và hướng dẫn bổ sung trên Moodle.
 - [ ] Đọc bài giảng GUI checklist và usability evaluation. Ghi tên bài và mục dùng làm căn cứ.
-- [ ] Chọn một màn hình chính và các màn hình phụ đủ để thiết kế hơn 40 mục có ý nghĩa. Chọn đúng một flow usability end-to-end.
-- [ ] Đối chiếu với nhóm để tránh trùng màn hình chính hoặc trùng flow. Ghi phạm vi cuối cùng vào README và báo cáo.
+- [x] Chọn Checkout làm màn hình chính cho C1 và chốt các màn hỗ trợ với nhóm.
+- [ ] Sinh viên chốt flow usability end-to-end riêng và đối chiếu với nhóm.
 - [ ] Chốt nền tảng, tài khoản demo, fixture và tiêu chí bắt đầu lại giữa các lượt. Ghi commit SUT và biến thể môi trường theo [SETUP.md](SETUP.md).
 - [ ] Mở nhật ký AI trước khi thiết kế. Tạo commit riêng khi xong mỗi bước của quy trình, gồm thiết kế checklist, thực thi, báo lỗi, từng buổi usability và phân tích.
 
@@ -15,14 +15,14 @@ Phạm vi nhóm đã phân C1 Web mua hàng. Màn hình chính là Checkout, cá
 
 ## 1. GUI Checklist (30 điểm)
 
-- [ ] Đọc đặc tả mục 8 và các FR nghiệp vụ liên quan đến màn hình đã chọn.
-- [ ] Hướng dẫn AI theo từng bước của kỹ thuật để tạo bản nháp. Lưu prompt và output gốc vào audit.
+- [x] Đọc đặc tả mục 8 và các FR nghiệp vụ liên quan đến màn hình đã chọn.
+- [x] Tạo bản nháp, lưu chỉ dẫn, đầu ra và phần mở rộng kỹ thuật trong audit.
 - [ ] Sinh viên rà từng mục, sửa mục mơ hồ hoặc trùng, rồi bổ sung các mục AI bỏ sót. Với từng mục bổ sung, ghi lý do AI bỏ sót và căn cứ thực tế hoặc yêu cầu.
-- [ ] Chốt ít nhất 41 mục kiểm thử riêng biệt trong [Excel checklist](tests/gui-checklist.xlsx). Mỗi mục có mã, màn hình, IA, nguồn yêu cầu, tiền điều kiện hoặc dữ liệu, thao tác và kết quả mong đợi.
-- [ ] Bao phủ IA-01 tiêu chuẩn chung, IA-02 biểu mẫu, IA-03 điều hướng và IA-04 phản hồi hoặc trạng thái. Ánh xạ lần lượt tới FR-21, FR-22, FR-23 và FR-24 của đặc tả EShop.
-- [ ] Chạy checklist trên nền tảng chính. Ghi Passed hoặc Failed theo quan sát. Mỗi Failed có lý do ở cột Notes và ảnh. Giữ trạng thái để trống trong lúc chưa chạy.
-- [ ] Tạo bug report Markdown và GitHub Issue cho từng lỗi xác nhận. Mỗi issue có ảnh, môi trường, bước tái hiện, expected, actual, ảnh hưởng và mã checklist liên quan. Gộp lỗi trùng khi đã đối chiếu nguyên nhân hoặc triệu chứng.
-- [ ] Đối chiếu số mục, số kết quả và số bug giữa Excel, báo cáo, README và GitHub Issues.
+- [x] Thiết kế 67 mục riêng biệt trong [Excel checklist](tests/gui-checklist.xlsx), với mã, màn hình, IA, nguồn, fixture, thao tác và expected.
+- [x] Bao phủ IA-01 đến IA-04 và đối chiếu FR-21 đến FR-24.
+- [x] Chạy toàn bộ trên Chrome. Ghi Passed hoặc Failed, Notes và ảnh lỗi theo GUI-ID.
+- [x] Tạo hồ sơ 19 lỗi mới và đăng Issues có ảnh. Nối 17 điều kiện trùng về Issue hiện có trên fork.
+- [x] Đối chiếu số mục, kết quả và lỗi của các lượt đã chạy giữa Excel, báo cáo, README và GitHub Issues.
 
 ## 2. Usability Evaluation (40 điểm)
 
@@ -67,10 +67,10 @@ Phạm vi nhóm đã phân C1 Web mua hàng. Màn hình chính là Checkout, cá
 
 ## 4. Agent Skills (10 điểm)
 
-- [ ] Viết skill tái sử dụng cho thiết kế, review và thực thi GUI checklist.
-- [ ] Viết skill tái sử dụng cho lập kế hoạch, ghi nhận và phân tích usability. Quy định dữ liệu người thật và phê duyệt do sinh viên xác nhận.
-- [ ] Chạy thử mỗi quy trình trên một màn hình hoặc flow hoàn chỉnh và ghi lại phần sinh viên rà soát.
-- [ ] Quay demo end-to-end, đưa link YouTube vào README và nộp thư mục skill. Đề khuyến khích phần này và có 10 điểm trong rubric.
+- [x] Viết skill tái sử dụng cho thiết kế, review và thực thi GUI checklist.
+- [x] Viết skill tái sử dụng cho lập kế hoạch, ghi nhận và phân tích usability.
+- [x] Quay demo workflow GUI trên Checkout và bàn giao bản MP4.
+- [ ] Sinh viên review đầu ra và cập nhật link YouTube thực tế.
 
 ## 5. Audit, báo cáo và nộp
 

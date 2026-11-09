@@ -13,6 +13,7 @@
 ## Làm bài
 
 - [Danh sách việc cần làm](TASKS.md) theo đề, từ chốt phạm vi đến nộp Moodle.
+- [Bàn giao C1](HANDOFF.md) ghi kết quả, bước bổ sung P3 và các mục sinh viên hoàn tất.
 - [Khởi chạy EShop](SETUP.md) trên Windows và chuẩn bị môi trường chạy.
 - [Báo cáo chính](23120262_Report.md) ghi thiết kế, quy trình, kết quả và bằng chứng.
 - [Excel checklist](tests/gui-checklist.xlsx) ghi thiết kế ở tab Checklist và kết quả theo nền tảng ở tab Execution.
@@ -24,16 +25,18 @@
 
 | Chỉ số | Kết quả |
 |---|---|
-| Số màn hình GUI đã kiểm thử | Chưa chạy |
-| Số flow usability đã đánh giá | Chưa chạy |
-| Số mục GUI thiết kế | Chưa thiết kế |
-| Số mục GUI đã chạy, Passed, Failed | Chưa chạy |
-| Số lượt chạy theo nền tảng | Chưa chạy |
-| Số bug duy nhất | Chưa tổng hợp |
-| Số buổi usability chính thức hoàn tất | Chưa chạy |
-| Video demo Agent Skills | Chưa quay |
+| Số màn hình GUI đã kiểm thử | 4 màn hình và navbar khách |
+| Số flow usability đã đánh giá | Task 2 do sinh viên bổ sung |
+| Số mục GUI thiết kế | 67 |
+| Số mục GUI đã chạy, Passed, Failed | 67 mục duy nhất, 31 Passed và 36 Failed trên mỗi browser đã chạy |
+| Số lượt trên Chrome và Firefox | 134 lượt, 62 Passed và 72 Failed |
+| P3 theo đề | Chờ thiết bị hoặc cloud |
+| Khảo sát WebKit Windows | 67 lượt, 31 Passed và 36 Failed |
+| Số điều kiện lỗi | 36, gồm 19 Issues mới và 17 điều kiện trùng fork |
+| Số buổi usability chính thức hoàn tất | Task 2 do sinh viên bổ sung |
+| Video demo Agent Skills | Xem [Video demo](Video_Links.md) |
 
-Khi chốt báo cáo, ghi số mục checklist duy nhất riêng với số lượt chạy theo nền tảng. Tính số bug theo ID duy nhất và liên kết tới GitHub Issues tương ứng.
+[Test summary theo IA và màn hình](reports/c1-test-summary.md), [Bug index](bugs/bug-reports.md), [Đối chiếu GitHub Issues](evidence/github-issues/README.md), [Git log](git-commit-log.txt).
 
 ## Tự đánh giá
 
