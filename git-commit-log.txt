@@ -1,0 +1,90 @@
+HW03 C1 commit history
+Snapshot through 7386d70d117ce7b92559abfe5c776ae60e91ef4c
+
+commit 7386d70d117ce7b92559abfe5c776ae60e91ef4c
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:55:43+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:55:43+07:00
+
+    docs(hw03): record explicit failure reasons for linked defects
+
+commit 74c03c17ffdac48b7444f4edac3d45ad01c57980
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:55:02+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:55:02+07:00
+
+    docs(hw03): complete C1 workbook report and AI audit package
+
+commit 8bd371821b03eaee8fcd7656f5436f2f63601a87
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:55:02+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:55:02+07:00
+
+    docs(hw03): add reusable agent skills and Checkout demo instructions
+
+commit eec0a1668f25d528faf7fc6d119eac18ea2d15b9
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:50:59+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:50:59+07:00
+
+    docs(hw03): record C1 defect triage and verified GitHub issues
+
+commit 55952a64686ef6c81db9867affacca6792ee1343
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:50:58+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:50:58+07:00
+
+    test(hw03): verify cart readiness and rerun WebKit exploration
+
+commit a0712c0f2bcbf33636eda09ed6f2998bcf5456c3
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:47:21+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:47:21+07:00
+
+    test(hw03): record Firefox execution and failure captures
+
+commit 0a221ec68c339cf19fddd0c4ebce90e9936abe8c
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:47:20+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:47:20+07:00
+
+    test(hw03): record Chrome execution and failure captures
+
+commit 7ed4dedf7a5edafc8cabecde68af63dae16aac3f
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:38:55+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:38:55+07:00
+
+    test(hw03): add isolated Playwright C1 browser runner
+
+commit c38e2aa5d188a7e3bea34b45860c5deecdd4a9a3
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:38:55+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:38:55+07:00
+
+    test(hw03): design C1 GUI checklist from EShop requirements
+
+commit b299afd70606a945e55ce5749796c90568ba6e0c
+Author:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-10T02:31:42+07:00
+Commit:     Duong Thai Hoa Tong <145743624+henry-banana@users.noreply.github.com>
+CommitDate: 2026-11-10T02:31:42+07:00
+
+    docs(hw03): scaffold assignment report and test workspace
+
+commit 1d3e709386b5f22387004ea03e41f31cdb3c7798
+Author:     Tong Duong Thai Hoa <145743624+henry-banana@users.noreply.github.com>
+AuthorDate: 2026-11-09T22:54:37+07:00
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-11-09T22:54:37+07:00
+
+    Initial commit
