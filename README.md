@@ -6,7 +6,8 @@
 | MSSV | 23120262 |
 | Bài tập | HW03-AI, cá nhân |
 | EShop SUT | `85af3ba875c88283615e22cb108f13e2fccaf0e9` |
-| Phạm vi | Chờ xác nhận màn hình chính và flow với nhóm |
+| Phạm vi GUI | C1 Web mua hàng, màn hình chính Checkout |
+| Phạm vi usability | Task 2 do sinh viên thực hiện riêng |
 | Hạn nộp | Xem link nộp trên Moodle |
 
 ## Làm bài

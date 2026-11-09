@@ -11,7 +11,7 @@ Nguồn chính là đề HW03 mục 4 đến 17, đặc tả EShop mục 8 và c
 - [ ] Chốt nền tảng, tài khoản demo, fixture và tiêu chí bắt đầu lại giữa các lượt. Ghi commit SUT và biến thể môi trường theo [SETUP.md](SETUP.md).
 - [ ] Mở nhật ký AI trước khi thiết kế. Tạo commit riêng khi xong mỗi bước của quy trình, gồm thiết kế checklist, thực thi, báo lỗi, từng buổi usability và phân tích.
 
-Phạm vi đề xuất để kiểm tra với nhóm: chọn Checkout làm màn hình chính, dùng Home, Product Detail, Cart và Login hỗ trợ. Flow usability đề xuất là tìm sản phẩm theo ngân sách, thêm vào giỏ và đặt một đơn demo có mã giảm giá. Phạm vi còn chờ chốt.
+Phạm vi nhóm đã phân C1 Web mua hàng. Màn hình chính là Checkout, các màn hỗ trợ gồm Trang chủ, Chi tiết sản phẩm, Giỏ hàng và navbar khách. Đăng nhập chỉ dùng để thiết lập trạng thái cho C1. Task 2 do sinh viên thực hiện riêng.
 
 ## 1. GUI Checklist (30 điểm)
 
