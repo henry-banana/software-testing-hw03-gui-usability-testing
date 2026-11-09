@@ -58,3 +58,20 @@ npm.cmd run dev -- --port 5173 --strictPort
 ## Ghi nhận mỗi lượt chạy
 
 Ghi commit SUT, mã nền tảng, OS và thiết bị, browser hoặc Expo, URL, ngày giờ và dữ liệu đầu vào. Kiểm tra lại trạng thái đăng nhập, giỏ hàng và lượt dùng coupon trước mỗi lần chạy lại. Dùng hồ sơ browser sạch hoặc tài khoản demo riêng cho từng người khi cần.
+
+## Chạy GUI checklist C1
+
+Runner khởi động hai service trên cổng 3000 và 5173. Để trống hai cổng trước khi chạy. Cài dependencies của SUT theo phần trên, sau đó cài Playwright theo lockfile.
+
+```powershell
+npm.cmd ci --prefix tests/playwright
+node tests/playwright/node_modules/playwright/cli.js install firefox webkit
+node tests/playwright/run-c1.mjs chrome
+node tests/playwright/run-c1.mjs firefox
+node tests/playwright/run-c1.mjs webkit
+node tests/playwright/export-c1.mjs execution
+```
+
+Chrome dùng bản Google Chrome có sẵn trên máy. WebKit là lượt khảo sát thêm. Để chạy lại một ca mà giữ kết quả toàn bộ lượt gốc, thêm mã sau tên browser, ví dụ `node tests/playwright/run-c1.mjs chrome GUI-021`.
+
+Để tạo bộ ảnh nộp có nhận diện, đặt hai biến phiên `HW03_STUDENT_EMAIL` và `HW03_STUDENT_NAME_AND_ID`. Runner lưu ảnh có nhận diện trong `.local/submission-evidence/`. Bộ ảnh công khai của repo dùng dữ liệu demo và được lưu riêng.
